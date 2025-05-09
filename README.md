@@ -1,5 +1,5 @@
 /**
- * @file [Nome do Arquivo]
+ * @file [tech-cursos]
  * @brief Documentação do projeto de listagem de cursos.
  *
  * ## Descrição
