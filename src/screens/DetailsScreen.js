@@ -10,7 +10,7 @@ const DetailsScreen = ({ route }) => {
       <Text style={styles.title}>📄 Detalhes do Curso</Text>
       <Text style={styles.itemTitle}>{name}</Text>
       <Text style={styles.itemDescription}>{description}</Text>
-      <Text style={styles.itemId}>{itemId}</Text>
+      <Text style={styles.itemId}>ID: {itemId}</Text>
     </View>
   )
 }
