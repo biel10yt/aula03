@@ -21,13 +21,13 @@ export const adicionarCurso =  async (curso, userId) => {
     return docRef.id
 }
 
-// Atualizar curso existente
+// Atualizar curso existente (U)
 export const atualizarCurso = async (id, novosDados) => {
     const cursoRef = doc(db, 'cursos', id)
     await updateDoc(cursoRef, novosDados)
 }
 
-// Deletar curso por ID
+// Deletar curso por ID (D)
 export const deletarCurso = async (id) => {
     const cursoRef = doc(db, 'cursos', id)
     await deleteDoc(cursoRef)

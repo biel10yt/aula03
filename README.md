@@ -11,13 +11,16 @@
  * ├── README.md                  # Visão geral do projeto
  * ├── estrutura/                 
  * │   ├── config.md              # Explicação sobre a configuração do Firebase
- * │   ├── navigation.md          # Detalhes sobre a navegação do app
+ * │   ├── context.md              # Provedor de contexto para autenticação no React
+ * │   ├── navigation.md          # Detalhes sobre a barra navegação do app
  * │   ├── screens/               # Documentação de cada tela
+ * │   │   ├── CursoFormScreen.md
  * │   │   ├── DetailsScreen.md
  * │   │   ├── HomeScreen.md
  * │   │   ├── LoginScreen.md
  * │   │   ├── ProfileScreen.md
- * │   └── services  # Conexão com o banco de dados pela cloud (ex: CursoService)
+ * │   │   ├── RegisterScreen.md
+ * │   └── services  # Conexão com o banco de dados pela cloud e CRUD
  * ```
  *
  * ## Bibliotecas Utilizadas
@@ -45,16 +48,16 @@
  * ## Screenshots
  *
  * ### Screenshot 1
- * ![Tela inicial do aplicativo](./screenshots/Captura%20de%20tela%202025-04-21%20181456.png)
+ * ![Tela de login do aplicativo](./screenshots/Captura%20de%20tela%202025-06-04%20183229.png)
  *
  * ### Screenshot 2
- * ![Tela de listagem de cursos](./screenshots/Captura%20de%20tela%202025-04-21%20181507.png)
+ * ![Tela de listagem de cursos](./screenshots/Captura%20de%20tela%202025-06-04%20183339.png)
  *
  * ### Screenshot 3
  * ![Tela de detalhes do curso](./screenshots/Captura%20de%20tela%202025-04-21%20181523.png)
  *
  * ### Screenshot 4
- * ![Tela de Perfil](./screenshots/Captura%20de%20tela%202025-04-21%20181535.png)
+ * ![Tela de Perfil](./screenshots/Captura%20de%20tela%202025-06-04%20183512.png)
  *
  * ## Uso
  * Para utilizar o aplicativo, siga os passos abaixo:
