@@ -11,7 +11,7 @@ import {
   APP_ID
 } from '@env'
 
-// Your web app's Firebase configuration
+
 const firebaseConfig = {
   apiKey: API_KEY,
   authDomain: AUTH_DOMAIN,
@@ -21,7 +21,7 @@ const firebaseConfig = {
   appId: APP_ID
 };
 
-// Initialize Firebase
+
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app)
 const auth = getAuth(app)
